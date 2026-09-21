@@ -28,6 +28,9 @@ public class SpravaVeznu {
     }
 
     public void validaceRadku(){
+        for(String radek : radky){
+
+        }
 
     }
 
