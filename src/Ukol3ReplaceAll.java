@@ -3,7 +3,6 @@ import java.util.regex.Pattern;
 
 public class Ukol3ReplaceAll {
 
-
     static void replace(String title, String regex, String replacement, String input) {
         System.out.println("\n=== " + title + " ===");
         Pattern p = Pattern.compile(regex);
