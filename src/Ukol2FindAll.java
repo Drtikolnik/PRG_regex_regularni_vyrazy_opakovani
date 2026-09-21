@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Ukol2 {
+public class Ukol2FindAll {
 
     static void findAll(String title, String regex, String input) {
         System.out.println("\n=== " + title + " ===");

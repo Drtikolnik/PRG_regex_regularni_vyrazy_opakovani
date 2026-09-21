@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         String text = "Hello 2025! 123 1 ok OK čas 42 12345 ha hahaha hahahaha _a a_ a1 a_b";
+
+        //ÚKOL 1-------------------------------------------------------------------
         Pattern p = Pattern.compile("[0-9]+"); // slice
         Matcher m = p.matcher(text);
         if (m.find()) {
@@ -82,9 +84,11 @@ public class Main {
         }
 
 
+        //ÚKOL 3-------------------------------------------------------------------
 
-
-
+        text = " Cena : 250 CZK " ;
+        String result = text.replaceAll ( " (\\d +) \\s * CZK " , " $1 Kc " ) ;
+        System.out.println(result); // -> Cena : 250 Kc
 
 
 
