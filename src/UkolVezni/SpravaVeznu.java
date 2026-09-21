@@ -1,7 +1,7 @@
 package UkolVezni;
 
 
-public class Text {
+public class SpravaVeznu {
     private String input = "Pavel Novák;1.1.2008;+420 123 456 789;pavel@seznam.cz;Rokycany;Svazu bojovníků za svobodu;112;332 01\n" +
             "Anna Černá;12.5.1995;+420 777 888 999;anna.cerna@gmail.com;Brno;Křenová;45;602 00\n" +
             "Josef Dvořák;29.2.2000;+420 606 111 222;josef.dvorak@email.cz;Praha;Dlouhá;128;110 00\n" +
@@ -22,6 +22,25 @@ public class Text {
             "Karel Malý;10.10.1980;+420 603 444 555;karel.maly@email.cz;Olomouc;Polní;31;\n" +
             "David Jelínek;6.6.1992;+420 604 666 777;david.jelinek@email.cz;Liberec;Lesní;44\n" +
             "Petra Bílá;9.9.1989;+420 605 888 999;petra.bila@email.cz;Pardubice;Nádražní;18;530 02;navíc";
+
+    public SpravaVeznu() {
+
+    }
+
+    public void validaceRadku(){
+
+    }
+
+    public void zapsatVezne(){
+
+    }
+
+    public void vypsatVezne(){
+
+    }
+
+
+
 
 
 
